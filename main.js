@@ -374,7 +374,7 @@
 
  function buildShowDiv(config) {
      return `<div class="grid" data-head="${config.head}" data-tail="${config.tail}" data-name="${config.name}" data-icon-id="${config.iconID}" >
-             <div class="icon ${pcr.grayShowUnClick && isUnClicked(config) ? 'gray-scale' : ''}" icon-id="${config.iconID}">
+             <div class="icon ${pcr.grayShowUnClick && isUnClicked(config) ? 'gray-scale' : ''}" icon-id="${config.iconID}" title="${config.name}">
                  ${isClicked(config.name, config.iconID) ? '<img src="dui.png" class="clicked"/>' : ""}
                  ${pcr.showName ? `<span>${config.name}</span>` : ''}
                  ${isFocusTarget(config.name, config.iconID) ? targetIcon() : ''}
