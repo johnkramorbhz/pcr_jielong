@@ -104,6 +104,28 @@ div {
   height: 78px;
   width: 78px;
   margin: 1px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: stretch;
+  align-content: space-between;
+  font-weight: bold;
+  text-shadow: 0 0 5px white;
+}
+
+#game .icon .normal{
+  width: 100%;
+  color: black;
+}
+
+#game .icon .great{
+  width: 100%;
+  color: darkgreen;
+}
+
+#game .icon .puricone{
+  width: 100%;
+  color: darkred;
 }
 
 #game .all-clicked {

@@ -7,6 +7,7 @@
  pcr.MODE_TARGET = 'targetMode';
  pcr.clickHistory = new Set(JSON.parse(localStorage.getItem("clickedHistory") || '[]')); // 已点击集合
  pcr.mode = pcr.MODE_GAME;
+ pcr.showName = true;
 
  pcr.MODE_CONFIG = {
      'gameMode': {
@@ -55,7 +56,7 @@
      },
      'targetMode': {
          alwayDrawAll: true,
-         help: '选择一个图片作为最终目标，游戏模式中将会进行追踪。深度超过3就卡爆了，谁能jojo我。目前搜索深度为4。超过4将认为不可达。自己用了一下感觉8太行, 忘了吧.',
+         help: '选择一个图片作为最终目标，游戏模式中将会进行追踪。已优化原算法',
          clickEvent: function (e) {
              switch (e.which) {
                  case 1:
@@ -76,6 +77,7 @@
 
  $.ajax('data.json')
      .done(data => {
+		 if (typeof(data) == "string") data = JSON.parse(data);
          pcr.META = data.meta;
          pcr.DATA_ARRAY = data.data;
          pcr.SAME_META = [];
@@ -238,15 +240,22 @@
          })
          return;
      };
+	 //记录一下同尾部的结果稍微优化一下
+	 //当然也可以一开始就打表，但是懒
+	 let tailToCount = new Map();
      dataArray.forEach(data => {
-         let unClickSet = new Set();
-         eachMatchedWord(data.tail, pcr.showNextUnClick, nextData => {
-             if (isUnClicked(nextData)) {
-                 unClickSet.add(nextData.iconID + nextData.name);
-             }
-         });
-         data.nextUnClick = unClickSet.size;
+		 let unClickCount = 0;
+		 if (tailToCount[data.tail] == null)
+		 {
+			 deep_map = calcDistance(data);
+			 for (let k in deep_map) {
+				 if(deep_map[k] <= pcr.showNextUnClick) unClickCount++;
+			 }
+			 tailToCount[data.tail] = unClickCount;
+		 }
+		 data.nextUnClick = tailToCount[data.tail];
      });
+	 console.log(tailToCount);
  }
 
  function sortDataArray(dataArray) {
@@ -272,10 +281,47 @@
      });
  }
 
+ //bfs一下, 对于每个起点是O(N)的
+ function calcDistance(src, reverse = false)
+ {
+	 let deep_map = new Map();
+	 deep_map[src.name + src.iconID] = 0;
+	 let queue = [src];
+	 let l = 0, r = 0;
+	 while (l <= r) {
+		 let u = queue[l];
+		 let dep = deep_map[u.name + u.iconID];
+		 if (dep != null) {
+			 if (!reverse)
+			 {
+				 eachMatchedWord(u.tail, 1, v => {
+					 if (deep_map[v.name + v.iconID] == null) {
+						 deep_map[v.name + v.iconID] = dep + 1;
+						 queue.push(v);
+						 r++;
+					 }
+				 });
+			 } else {
+				 eachMatchedWordHead(u.head, 1, v => {
+					 if (deep_map[v.name + v.iconID] == null) {
+						 deep_map[v.name + v.iconID] = dep + 1;
+						 queue.push(v);
+						 r++;
+					 }
+				 });
+			 }
+		 }
+		 l++;
+	 }
+	 return deep_map;
+ }
+ 
  function splitDataArray(dataArray) {
      const focus = [],
          normal = [];
-
+	 if (pcr.focusTarget) {
+		deep_map = calcDistance(pcr.focusTarget, true);
+	 }
      dataArray.forEach(data => {
          if (isFocusTarget(data.name, data.iconID)) {
              // 把目标插入到最前边
@@ -283,8 +329,8 @@
              focus.splice(0, 0, data);
              return;
          }
-         let deep = isRoad(data, 1);
-         if (deep > 0) {
+         let deep = deep_map[data.name + data.iconID];//isRoad(data, 1);
+         if (deep != null && deep > 0) {
              data.deep = deep;
              focus.push(data);
          } else {
@@ -305,20 +351,20 @@
  }
 
  // 返回到达目标节点所需的次数，返回-1表示不可达
- function isRoad(data, deep) {
-     if (isMatchWord(pcr.focusTarget, data.tail)) return deep;
-     if (deep >= pcr.MAX_FIND_DEEP) return -1;
+ // function isRoad(data, deep) {
+     // if (isMatchWord(pcr.focusTarget, data.tail)) return deep;
+     // if (deep >= pcr.MAX_FIND_DEEP) return -1;
 
-     deep++;
-     let minDeep = -1;
-     eachMatchedWord(data.tail, 1, nextData => {
-         let nextDeep = isRoad(nextData, deep);
-         if (nextDeep > 0) {
-             minDeep = minDeep == -1 ? nextDeep : Math.min(minDeep, nextDeep);
-         }
-     })
-     return minDeep;
- }
+     // deep++;
+     // let minDeep = -1;
+     // eachMatchedWord(data.tail, 1, nextData => {
+         // let nextDeep = isRoad(nextData, deep);
+         // if (nextDeep > 0) {
+             // minDeep = minDeep == -1 ? nextDeep : Math.min(minDeep, nextDeep);
+         // }
+     // })
+     // return minDeep;
+ // }
 
  function isMatchWord(e, selectWord) {
      if (selectWord == null || e.head === selectWord) return true;
@@ -374,12 +420,12 @@
 
  function buildShowDiv(config) {
      return `<div class="grid" data-head="${config.head}" data-tail="${config.tail}" data-name="${config.name}" data-icon-id="${config.iconID}" >
-             <div class="icon ${pcr.grayShowUnClick && isUnClicked(config) ? 'gray-scale' : ''}" icon-id="${config.iconID}" title="${config.name}">
+             <div class="icon ${pcr.grayShowUnClick && !isUnClicked(config) ? 'gray-scale' : ''}" icon-id="${config.iconID}" title="${config.name}">
                  ${isClicked(config.name, config.iconID) ? '<img src="dui.png" class="clicked"/>' : ""}
-                 ${pcr.showName ? `<span>${config.name}</span>` : ''}
+                 ${pcr.showName ? `<span class="${config.type}">${config.name}</span>` : ''}
                  ${isFocusTarget(config.name, config.iconID) ? targetIcon() : ''}
                  ${config.deep ? `<span>需${config.deep}步</span>` : ''}
-                 ${config.nextUnClick ? `<span>未点${config.nextUnClick}个</span>` : ''}
+                 ${config.nextUnClick ? `<span>${config.nextUnClick}</span>` : ''}
              </div>
              </div>`
  }
@@ -390,6 +436,18 @@
      array.forEach(nextData => {
          if (loop > 1) {
              eachMatchedWord(nextData.tail, loop - 1, func);
+         } else {
+             func(nextData);
+         }
+     });
+ }
+ 
+ function eachMatchedWordHead(head, loop, func) {
+     const array = pcr.DATA_MAP.tail[head];
+
+     array.forEach(nextData => {
+         if (loop > 1) {
+             eachMatchedWordHead(nextData.head, loop - 1, func);
          } else {
              func(nextData);
          }

@@ -26,13 +26,6 @@
 		"ün"
     ],
     "sameMeta": [
-        [
-            "zh",
-            "sh",
-            "r",
-            "z",
-            "s"
-        ]
     ],
     "data": [
         {
@@ -77,7 +70,7 @@
         },
         {
             "iconID": 10002,
-            "type": "purcone",
+            "type": "puricone",
             "name": "长耳猴首领",
             "head": "ang",
             "tail": "ing",
@@ -133,7 +126,7 @@
         },
         {
             "iconID": 10005,
-            "type": "purcone",
+            "type": "puricone",
             "name": "秋乃的胸针",
             "head": "iu",
             "tail": "en",
@@ -157,7 +150,7 @@
         },
         {
             "iconID": 10006,
-            "type": "purcone",
+            "type": "puricone",
             "name": "小麦汽水",
             "head": "ao",
             "tail": "ui",
@@ -165,7 +158,7 @@
         },
         {
             "iconID": 10006,
-            "type": "purcone",
+            "type": "puricone",
             "name": "无尽酒杯",
             "head": "u",
             "tail": "ei",
@@ -253,7 +246,7 @@
         },
         {
             "iconID": 10010,
-            "type": "purcone",
+            "type": "puricone",
             "name": "公主之剑",
             "head": "ong",
             "tail": "an",
@@ -293,7 +286,7 @@
         },
         {
             "iconID": 10011,
-            "type": "purcone",
+            "type": "puricone",
             "name": "花凛的眼镜",
             "head": "a",
             "tail": "ing",
@@ -325,7 +318,7 @@
         },
         {
             "iconID": 10012,
-            "type": "purcone",
+            "type": "puricone",
             "name": "侦探放大镜",
             "head": "en",
             "tail": "ing",
@@ -365,7 +358,7 @@
         },
         {
             "iconID": 10013,
-            "type": "purcone",
+            "type": "puricone",
             "name": "龙肉",
             "head": "ong",
             "tail": "ou",
@@ -421,7 +414,7 @@
         },
         {
             "iconID": 10015,
-            "type": "purcone",
+            "type": "puricone",
             "name": "伊莉亚的眷属",
             "head": "i",
             "tail": "u",
@@ -453,7 +446,7 @@
         },
         {
             "iconID": 10016,
-            "type": "purcone",
+            "type": "puricone",
             "name": "怪鸟基兹",
             "head": "ai",
             "tail": "i",
@@ -501,7 +494,7 @@
         },
         {
             "iconID": 10018,
-            "type": "purcone",
+            "type": "puricone",
             "name": "珠希的朋友",
             "head": "u",
             "tail": "ou",
@@ -621,7 +614,7 @@
         },
         {
             "iconID": 10023,
-            "type": "purcone",
+            "type": "puricone",
             "name": "伊丽莎白",
             "head": "i",
             "tail": "ai",
@@ -685,7 +678,7 @@
         },
         {
             "iconID": 10025,
-            "type": "purcone",
+            "type": "puricone",
             "name": "铃的点心",
             "head": "ing",
             "tail": "in",
@@ -725,7 +718,7 @@
         },
         {
             "iconID": 10027,
-            "type": "purcone",
+            "type": "puricone",
             "name": "茉莉的憧憬",
             "head": "o",
             "tail": "ing",
@@ -749,7 +742,7 @@
         },
         {
             "iconID": 10028,
-            "type": "purcone",
+            "type": "puricone",
             "name": "亚瑟",
             "head": "a",
             "tail": "e",
@@ -789,7 +782,7 @@
         },
         {
             "iconID": 10029,
-            "type": "purcone",
+            "type": "puricone",
             "name": "未奏希的恶作剧道具",
             "head": "ei",
             "tail": "ü",
@@ -845,7 +838,7 @@
         },
         {
             "iconID": 10031,
-            "type": "purcone",
+            "type": "puricone",
             "name": "暗黑独角兽",
             "head": "an",
             "tail": "ou",
@@ -869,7 +862,7 @@
         },
         {
             "iconID": 10032,
-            "type": "purcone",
+            "type": "puricone",
             "name": "公会之家道具",
             "head": "ong",
             "tail": "ü",
@@ -877,7 +870,7 @@
         },
         {
             "iconID": 10032,
-            "type": "purcone",
+            "type": "puricone",
             "name": "木椅",
             "head": "u",
             "tail": "i",
@@ -981,7 +974,7 @@
         },
         {
             "iconID": 10036,
-            "type": "purcone",
+            "type": "puricone",
             "name": "凯露的魔导书",
             "head": "ai",
             "tail": "u",
@@ -1037,7 +1030,7 @@
         },
         {
             "iconID": 10038,
-            "type": "purcone",
+            "type": "puricone",
             "name": "忘却的圣歌",
             "head": "ang",
             "tail": "e",
@@ -1061,7 +1054,7 @@
         },
         {
             "iconID": 10039,
-            "type": "purcone",
+            "type": "puricone",
             "name": "克罗依的点心",
             "head": "e",
             "tail": "in",
@@ -1093,7 +1086,7 @@
         },
         {
             "iconID": 10040,
-            "type": "purcone",
+            "type": "puricone",
             "name": "祈梨的战利品",
             "head": "i",
             "tail": "in",
@@ -1133,7 +1126,7 @@
         },
         {
             "iconID": 10041,
-            "type": "purcone",
+            "type": "puricone",
             "name": "兰德索尔的形状",
             "head": "an",
             "tail": "ang",
@@ -1141,7 +1134,7 @@
         },
         {
             "iconID": 10041,
-            "type": "purcone",
+            "type": "puricone",
             "name": "流星",
             "head": "iu",
             "tail": "ing",
@@ -1277,7 +1270,7 @@
         },
         {
             "iconID": 10046,
-            "type": "purcone",
+            "type": "puricone",
             "name": "好感度点数",
             "head": "ao",
             "tail": "u",
@@ -1285,7 +1278,7 @@
         },
         {
             "iconID": 10046,
-            "type": "purcone",
+            "type": "puricone",
             "name": "混合浆果蛋糕",
             "head": "un",
             "tail": "ao",
@@ -1325,7 +1318,7 @@
         },
         {
             "iconID": 10047,
-            "type": "purcone",
+            "type": "puricone",
             "name": "华丽麦克风",
             "head": "a",
             "tail": "eng",
@@ -1397,7 +1390,7 @@
         },
         {
             "iconID": 10050,
-            "type": "purcone",
+            "type": "puricone",
             "name": "涅比亚",
             "head": "ie",
             "tail": "a",
@@ -1429,7 +1422,7 @@
         },
         {
             "iconID": 10051,
-            "type": "purcone",
+            "type": "puricone",
             "name": "佩可莉姆夏日",
             "head": "ei",
             "tail": "i",
@@ -1637,7 +1630,7 @@
         },
         {
             "iconID": 10059,
-            "type": "purcone",
+            "type": "puricone",
             "name": "碧的朋友",
             "head": "i",
             "tail": "ou",
@@ -1709,7 +1702,7 @@
         },
         {
             "iconID": 10061,
-            "type": "purcone",
+            "type": "puricone",
             "name": "空花的秘密道具",
             "head": "ong",
             "tail": "ü",
@@ -1717,7 +1710,7 @@
         },
         {
             "iconID": 10061,
-            "type": "purcone",
+            "type": "puricone",
             "name": "神魂颠倒",
             "head": "en",
             "tail": "ao",
@@ -1757,7 +1750,7 @@
         },
         {
             "iconID": 10062,
-            "type": "purcone",
+            "type": "puricone",
             "name": "炼狱火海之盾",
             "head": "an",
             "tail": "un",
@@ -1781,7 +1774,7 @@
         },
         {
             "iconID": 10063,
-            "type": "purcone",
+            "type": "puricone",
             "name": "金币",
             "head": "in",
             "tail": "i",
@@ -1789,7 +1782,7 @@
         },
         {
             "iconID": 10063,
-            "type": "purcone",
+            "type": "puricone",
             "name": "购买公会之家道具",
             "head": "ou",
             "tail": "ü",
@@ -1813,7 +1806,7 @@
         },
         {
             "iconID": 10064,
-            "type": "purcone",
+            "type": "puricone",
             "name": "宫子的点心",
             "head": "ong",
             "tail": "in",
@@ -1933,7 +1926,7 @@
         },
         {
             "iconID": 10068,
-            "type": "purcone",
+            "type": "puricone",
             "name": "鲷鱼烧工厂",
             "head": "ao",
             "tail": "ang",
@@ -2029,7 +2022,7 @@
         },
         {
             "iconID": 10072,
-            "type": "purcone",
+            "type": "puricone",
             "name": "流夏的兴趣",
             "head": "iu",
             "tail": "ü",
@@ -2133,7 +2126,7 @@
         },
         {
             "iconID": 10075,
-            "type": "purcone",
+            "type": "puricone",
             "name": "东国文化",
             "head": "ong",
             "tail": "a",
@@ -2189,7 +2182,7 @@
         },
         {
             "iconID": 10077,
-            "type": "purcone",
+            "type": "puricone",
             "name": "宫子",
             "head": "ong",
             "tail": "i",
@@ -2197,7 +2190,7 @@
         },
         {
             "iconID": 10077,
-            "type": "purcone",
+            "type": "puricone",
             "name": "无敌状态",
             "head": "u",
             "tail": "ai",
@@ -2213,7 +2206,7 @@
         },
         {
             "iconID": 20001,
-            "type": "purcone",
+            "type": "puricone",
             "name": "无法袖手旁观",
             "head": "u",
             "tail": "an",
@@ -2229,7 +2222,7 @@
         },
         {
             "iconID": 20002,
-            "type": "purcone",
+            "type": "puricone",
             "name": "全体治愈",
             "head": "an",
             "tail": "ü",
@@ -2237,7 +2230,7 @@
         },
         {
             "iconID": 20002,
-            "type": "purcone",
+            "type": "puricone",
             "name": "真琴的总角之交",
             "head": "en",
             "tail": "ao",
@@ -2253,7 +2246,7 @@
         },
         {
             "iconID": 20003,
-            "type": "purcone",
+            "type": "puricone",
             "name": "骑马",
             "head": "i",
             "tail": "a",
@@ -2269,7 +2262,7 @@
         },
         {
             "iconID": 20004,
-            "type": "purcone",
+            "type": "puricone",
             "name": "淘气鬼",
             "head": "ao",
             "tail": "ui",
@@ -2285,7 +2278,7 @@
         },
         {
             "iconID": 20005,
-            "type": "purcone",
+            "type": "puricone",
             "name": "见习英雄",
             "head": "an",
             "tail": "ong",
@@ -2301,7 +2294,7 @@
         },
         {
             "iconID": 20006,
-            "type": "purcone",
+            "type": "puricone",
             "name": "依里的妹妹",
             "head": "i",
             "tail": "ei",
@@ -2309,7 +2302,7 @@
         },
         {
             "iconID": 20006,
-            "type": "purcone",
+            "type": "puricone",
             "name": "小恶魔",
             "head": "ao",
             "tail": "o",
@@ -2325,7 +2318,7 @@
         },
         {
             "iconID": 20007,
-            "type": "purcone",
+            "type": "puricone",
             "name": "幽灵",
             "head": "ou",
             "tail": "ing",
@@ -2333,7 +2326,7 @@
         },
         {
             "iconID": 20007,
-            "type": "purcone",
+            "type": "puricone",
             "name": "最喜欢布丁",
             "head": "ui",
             "tail": "ing",
@@ -2349,7 +2342,7 @@
         },
         {
             "iconID": 20008,
-            "type": "purcone",
+            "type": "puricone",
             "name": "貌美如我",
             "head": "ao",
             "tail": "o",
@@ -2357,7 +2350,7 @@
         },
         {
             "iconID": 20008,
-            "type": "purcone",
+            "type": "puricone",
             "name": "自恋狂",
             "head": "i",
             "tail": "ang",
@@ -2365,7 +2358,7 @@
         },
         {
             "iconID": 20008,
-            "type": "purcone",
+            "type": "puricone",
             "name": "伪娘",
             "head": "ei",
             "tail": "ang",
@@ -2381,7 +2374,7 @@
         },
         {
             "iconID": 20009,
-            "type": "purcone",
+            "type": "puricone",
             "name": "疾风之冥姬",
             "head": "i",
             "tail": "i",
@@ -2389,7 +2382,7 @@
         },
         {
             "iconID": 20009,
-            "type": "purcone",
+            "type": "puricone",
             "name": "中二病",
             "head": "ong",
             "tail": "ing",
@@ -2405,7 +2398,7 @@
         },
         {
             "iconID": 20010,
-            "type": "purcone",
+            "type": "puricone",
             "name": "公主殿下",
             "head": "ong",
             "tail": "a",
@@ -2413,7 +2406,7 @@
         },
         {
             "iconID": 20010,
-            "type": "purcone",
+            "type": "puricone",
             "name": "咕噜灵波",
             "head": "u",
             "tail": "ing",
@@ -2429,7 +2422,7 @@
         },
         {
             "iconID": 20011,
-            "type": "purcone",
+            "type": "puricone",
             "name": "妹妹",
             "head": "ei",
             "tail": "ei",
@@ -2437,7 +2430,7 @@
         },
         {
             "iconID": 20011,
-            "type": "purcone",
+            "type": "puricone",
             "name": "笨蛋",
             "head": "en",
             "tail": "an",
@@ -2453,7 +2446,7 @@
         },
         {
             "iconID": 20012,
-            "type": "purcone",
+            "type": "puricone",
             "name": "超能力少女",
             "head": "ao",
             "tail": "ü",
@@ -2461,7 +2454,7 @@
         },
         {
             "iconID": 20012,
-            "type": "purcone",
+            "type": "puricone",
             "name": "栞栞的姐姐",
             "head": "an",
             "tail": "ie",
@@ -2477,7 +2470,7 @@
         },
         {
             "iconID": 20013,
-            "type": "purcone",
+            "type": "puricone",
             "name": "魔法少女",
             "head": "o",
             "tail": "ü",
@@ -2485,7 +2478,7 @@
         },
         {
             "iconID": 20013,
-            "type": "purcone",
+            "type": "puricone",
             "name": "最可爱",
             "head": "ui",
             "tail": "ai",
@@ -2501,7 +2494,7 @@
         },
         {
             "iconID": 20014,
-            "type": "purcone",
+            "type": "puricone",
             "name": "名侦探",
             "head": "ing",
             "tail": "an",
@@ -2509,7 +2502,7 @@
         },
         {
             "iconID": 20014,
-            "type": "purcone",
+            "type": "puricone",
             "name": "侦探",
             "head": "en",
             "tail": "an",
@@ -2525,7 +2518,7 @@
         },
         {
             "iconID": 20015,
-            "type": "purcone",
+            "type": "puricone",
             "name": "幼儿园的老师",
             "head": "ou",
             "tail": "i",
@@ -2541,7 +2534,7 @@
         },
         {
             "iconID": 20016,
-            "type": "purcone",
+            "type": "puricone",
             "name": "超人气模特",
             "head": "ao",
             "tail": "e",
@@ -2549,7 +2542,7 @@
         },
         {
             "iconID": 20016,
-            "type": "purcone",
+            "type": "puricone",
             "name": "辣妹",
             "head": "a",
             "tail": "ei",
@@ -2565,7 +2558,7 @@
         },
         {
             "iconID": 20017,
-            "type": "purcone",
+            "type": "puricone",
             "name": "琉球空手道",
             "head": "iu",
             "tail": "ao",
@@ -2573,7 +2566,7 @@
         },
         {
             "iconID": 20017,
-            "type": "purcone",
+            "type": "puricone",
             "name": "嗨呀",
             "head": "ai",
             "tail": "a",
@@ -2589,7 +2582,7 @@
         },
         {
             "iconID": 20018,
-            "type": "purcone",
+            "type": "puricone",
             "name": "新人老师",
             "head": "in",
             "tail": "i",
@@ -2597,7 +2590,7 @@
         },
         {
             "iconID": 20018,
-            "type": "purcone",
+            "type": "puricone",
             "name": "小伊绪",
             "head": "ao",
             "tail": "ü",
@@ -2613,7 +2606,7 @@
         },
         {
             "iconID": 20019,
-            "type": "purcone",
+            "type": "puricone",
             "name": "最喜欢兔兔",
             "head": "ui",
             "tail": "u",
@@ -2629,7 +2622,7 @@
         },
         {
             "iconID": 20020,
-            "type": "purcone",
+            "type": "puricone",
             "name": "知名演员",
             "head": "i",
             "tail": "an",
@@ -2645,7 +2638,7 @@
         },
         {
             "iconID": 20021,
-            "type": "purcone",
+            "type": "puricone",
             "name": "双胞胎中的姐姐",
             "head": "ang",
             "tail": "ie",
@@ -2653,7 +2646,7 @@
         },
         {
             "iconID": 20021,
-            "type": "purcone",
+            "type": "puricone",
             "name": "害羞",
             "head": "ai",
             "tail": "iu",
@@ -2661,7 +2654,7 @@
         },
         {
             "iconID": 20021,
-            "type": "purcone",
+            "type": "puricone",
             "name": "天才玩家",
             "head": "an",
             "tail": "a",
@@ -2677,7 +2670,7 @@
         },
         {
             "iconID": 20022,
-            "type": "purcone",
+            "type": "puricone",
             "name": "噗吉的搭档",
             "head": "u",
             "tail": "ang",
@@ -2693,7 +2686,7 @@
         },
         {
             "iconID": 20023,
-            "type": "purcone",
+            "type": "puricone",
             "name": "女仆",
             "head": "ü",
             "tail": "u",
@@ -2701,7 +2694,7 @@
         },
         {
             "iconID": 20023,
-            "type": "purcone",
+            "type": "puricone",
             "name": "冒失鬼",
             "head": "ao",
             "tail": "ui",
@@ -2717,7 +2710,7 @@
         },
         {
             "iconID": 20024,
-            "type": "purcone",
+            "type": "puricone",
             "name": "无所事事",
             "head": "u",
             "tail": "i",
@@ -2733,7 +2726,7 @@
         },
         {
             "iconID": 20025,
-            "type": "purcone",
+            "type": "puricone",
             "name": "破坏狂",
             "head": "o",
             "tail": "ang",
@@ -2749,7 +2742,7 @@
         },
         {
             "iconID": 20026,
-            "type": "purcone",
+            "type": "puricone",
             "name": "妈妈",
             "head": "a",
             "tail": "a",
@@ -2765,7 +2758,7 @@
         },
         {
             "iconID": 20027,
-            "type": "purcone",
+            "type": "puricone",
             "name": "超人气偶像",
             "head": "ao",
             "tail": "ang",
@@ -2781,7 +2774,7 @@
         },
         {
             "iconID": 20028,
-            "type": "purcone",
+            "type": "puricone",
             "name": "东国迷",
             "head": "ong",
             "tail": "i",
@@ -2789,7 +2782,7 @@
         },
         {
             "iconID": 20028,
-            "type": "purcone",
+            "type": "puricone",
             "name": "冒牌忍者",
             "head": "ao",
             "tail": "e",
@@ -2805,7 +2798,7 @@
         },
         {
             "iconID": 20029,
-            "type": "purcone",
+            "type": "puricone",
             "name": "占卜师",
             "head": "an",
             "tail": "i",
@@ -2821,7 +2814,7 @@
         },
         {
             "iconID": 20030,
-            "type": "purcone",
+            "type": "puricone",
             "name": "大小姐",
             "head": "a",
             "tail": "ie",
@@ -2837,7 +2830,7 @@
         },
         {
             "iconID": 20031,
-            "type": "purcone",
+            "type": "puricone",
             "name": "牧场主人",
             "head": "u",
             "tail": "en",
@@ -2845,7 +2838,7 @@
         },
         {
             "iconID": 20031,
-            "type": "purcone",
+            "type": "puricone",
             "name": "搞笑之路",
             "head": "ao",
             "tail": "u",
@@ -2861,7 +2854,7 @@
         },
         {
             "iconID": 20032,
-            "type": "purcone",
+            "type": "puricone",
             "name": "酒鬼",
             "head": "iu",
             "tail": "ui",
@@ -2877,7 +2870,7 @@
         },
         {
             "iconID": 20033,
-            "type": "purcone",
+            "type": "puricone",
             "name": "优等生",
             "head": "ou",
             "tail": "eng",
@@ -2893,7 +2886,7 @@
         },
         {
             "iconID": 20034,
-            "type": "purcone",
+            "type": "puricone",
             "name": "御久间流",
             "head": "ü",
             "tail": "iu",
@@ -2909,7 +2902,7 @@
         },
         {
             "iconID": 20035,
-            "type": "purcone",
+            "type": "puricone",
             "name": "小初音的妹妹",
             "head": "ao",
             "tail": "ei",
@@ -2925,7 +2918,7 @@
         },
         {
             "iconID": 20036,
-            "type": "purcone",
+            "type": "puricone",
             "name": "孤单",
             "head": "u",
             "tail": "an",
@@ -2941,7 +2934,7 @@
         },
         {
             "iconID": 20037,
-            "type": "purcone",
+            "type": "puricone",
             "name": "唱唤士",
             "head": "ang",
             "tail": "i",
@@ -2949,7 +2942,7 @@
         },
         {
             "iconID": 20037,
-            "type": "purcone",
+            "type": "puricone",
             "name": "歌姬",
             "head": "e",
             "tail": "i",
@@ -2965,7 +2958,7 @@
         },
         {
             "iconID": 20038,
-            "type": "purcone",
+            "type": "puricone",
             "name": "优衣的总角之交",
             "head": "ou",
             "tail": "ao",
@@ -2981,7 +2974,7 @@
         },
         {
             "iconID": 20039,
-            "type": "purcone",
+            "type": "puricone",
             "name": "传说中的吸血鬼",
             "head": "an",
             "tail": "ui",
@@ -2989,7 +2982,7 @@
         },
         {
             "iconID": 20039,
-            "type": "purcone",
+            "type": "puricone",
             "name": "统率黑夜之主",
             "head": "ong",
             "tail": "ang",
@@ -3005,7 +2998,7 @@
         },
         {
             "iconID": 20040,
-            "type": "purcone",
+            "type": "puricone",
             "name": "受虐狂",
             "head": "ou",
             "tail": "ang",
@@ -3021,7 +3014,7 @@
         },
         {
             "iconID": 20041,
-            "type": "purcone",
+            "type": "puricone",
             "name": "猫娘",
             "head": "ao",
             "tail": "ang",
@@ -3029,7 +3022,7 @@
         },
         {
             "iconID": 20041,
-            "type": "purcone",
+            "type": "puricone",
             "name": "幻影之猫",
             "head": "an",
             "tail": "ao",
@@ -3045,7 +3038,7 @@
         },
         {
             "iconID": 20042,
-            "type": "purcone",
+            "type": "puricone",
             "name": "团长",
             "head": "an",
             "tail": "ang",
@@ -3061,7 +3054,7 @@
         },
         {
             "iconID": 20043,
-            "type": "purcone",
+            "type": "puricone",
             "name": "师傅",
             "head": "i",
             "tail": "u",
@@ -3069,7 +3062,7 @@
         },
         {
             "iconID": 20043,
-            "type": "purcone",
+            "type": "puricone",
             "name": "效率厨",
             "head": "ao",
             "tail": "u",
@@ -3085,7 +3078,7 @@
         },
         {
             "iconID": 20044,
-            "type": "purcone",
+            "type": "puricone",
             "name": "是姐姐哦",
             "head": "i",
             "tail": "o",
@@ -3101,7 +3094,7 @@
         },
         {
             "iconID": 20045,
-            "type": "purcone",
+            "type": "puricone",
             "name": "成熟的淑女",
             "head": "eng",
             "tail": "ü",
@@ -3117,7 +3110,7 @@
         },
         {
             "iconID": 20046,
-            "type": "purcone",
+            "type": "puricone",
             "name": "疯狂科学家",
             "head": "eng",
             "tail": "a",
@@ -3125,7 +3118,7 @@
         },
         {
             "iconID": 20046,
-            "type": "purcone",
+            "type": "puricone",
             "name": "独眼恶魔",
             "head": "u",
             "tail": "o",
@@ -3141,7 +3134,7 @@
         },
         {
             "iconID": 20047,
-            "type": "purcone",
+            "type": "puricone",
             "name": "毛茸茸",
             "head": "ao",
             "tail": "ong",
@@ -3157,7 +3150,7 @@
         },
         {
             "iconID": 20048,
-            "type": "purcone",
+            "type": "puricone",
             "name": "小孩子",
             "head": "ao",
             "tail": "i",
@@ -3173,7 +3166,7 @@
         },
         {
             "iconID": 20049,
-            "type": "purcone",
+            "type": "puricone",
             "name": "裁缝",
             "head": "ai",
             "tail": "eng",
@@ -3181,7 +3174,7 @@
         },
         {
             "iconID": 20049,
-            "type": "purcone",
+            "type": "puricone",
             "name": "怜大人粉丝俱乐部",
             "head": "an",
             "tail": "u",
@@ -3197,7 +3190,7 @@
         },
         {
             "iconID": 20050,
-            "type": "purcone",
+            "type": "puricone",
             "name": "跟踪狂",
             "head": "en",
             "tail": "ang",
@@ -3213,7 +3206,7 @@
         },
         {
             "iconID": 20051,
-            "type": "purcone",
+            "type": "puricone",
             "name": "大姐头",
             "head": "a",
             "tail": "ou",
@@ -3229,7 +3222,7 @@
         },
         {
             "iconID": 20052,
-            "type": "purcone",
+            "type": "puricone",
             "name": "苍空的骑空士",
             "head": "ang",
             "tail": "i",
@@ -3245,7 +3238,7 @@
         },
         {
             "iconID": 20053,
-            "type": "purcone",
+            "type": "puricone",
             "name": "贪吃鬼",
             "head": "an",
             "tail": "ui",
@@ -3253,7 +3246,7 @@
         },
         {
             "iconID": 20053,
-            "type": "purcone",
+            "type": "puricone",
             "name": "皇家装备",
             "head": "ang",
             "tail": "ei",
@@ -3261,7 +3254,7 @@
         },
         {
             "iconID": 20053,
-            "type": "purcone",
+            "type": "puricone",
             "name": "超棒的对吧",
             "head": "ao",
             "tail": "a",
@@ -3269,7 +3262,7 @@
         },
         {
             "iconID": 20053,
-            "type": "purcone",
+            "type": "puricone",
             "name": "公主",
             "head": "ong",
             "tail": "u",
@@ -3285,7 +3278,7 @@
         },
         {
             "iconID": 20054,
-            "type": "purcone",
+            "type": "puricone",
             "name": "引导者",
             "head": "in",
             "tail": "e",
@@ -3293,7 +3286,7 @@
         },
         {
             "iconID": 20054,
-            "type": "purcone",
+            "type": "puricone",
             "name": "巫女",
             "head": "u",
             "tail": "ü",
@@ -3309,7 +3302,7 @@
         },
         {
             "iconID": 20055,
-            "type": "purcone",
+            "type": "puricone",
             "name": "傲娇",
             "head": "ao",
             "tail": "ao",
@@ -3317,7 +3310,7 @@
         },
         {
             "iconID": 20055,
-            "type": "purcone",
+            "type": "puricone",
             "name": "不妙啊",
             "head": "u",
             "tail": "a",
@@ -3333,7 +3326,7 @@
         },
         {
             "iconID": 20056,
-            "type": "purcone",
+            "type": "puricone",
             "name": "诺维姆",
             "head": "o",
             "tail": "u",
@@ -3349,7 +3342,7 @@
         },
         {
             "iconID": 20057,
-            "type": "purcone",
+            "type": "puricone",
             "name": "精灵女",
             "head": "ing",
             "tail": "ü",
@@ -3357,7 +3350,7 @@
         },
         {
             "iconID": 20057,
-            "type": "purcone",
+            "type": "puricone",
             "name": "见习森林守卫",
             "head": "an",
             "tail": "ei",
@@ -3373,7 +3366,7 @@
         },
         {
             "iconID": 20058,
-            "type": "purcone",
+            "type": "puricone",
             "name": "变貌大妃",
             "head": "an",
             "tail": "ei",
@@ -3381,7 +3374,7 @@
         },
         {
             "iconID": 20058,
-            "type": "purcone",
+            "type": "puricone",
             "name": "分身",
             "head": "en",
             "tail": "en",
@@ -3397,7 +3390,7 @@
         },
         {
             "iconID": 20059,
-            "type": "purcone",
+            "type": "puricone",
             "name": "誓约女君",
             "head": "i",
             "tail": "ün",
@@ -3405,7 +3398,7 @@
         },
         {
             "iconID": 20059,
-            "type": "purcone",
+            "type": "puricone",
             "name": "副团长",
             "head": "u",
             "tail": "ang",
@@ -3421,7 +3414,7 @@
         },
         {
             "iconID": 20060,
-            "type": "purcone",
+            "type": "puricone",
             "name": "龙族吐息",
             "head": "ong",
             "tail": "i",
@@ -3429,7 +3422,7 @@
         },
         {
             "iconID": 20060,
-            "type": "purcone",
+            "type": "puricone",
             "name": "干部",
             "head": "an",
             "tail": "u",
@@ -3445,7 +3438,7 @@
         },
         {
             "iconID": 20061,
-            "type": "purcone",
+            "type": "puricone",
             "name": "头脑简单，只会打架",
             "head": "ou",
             "tail": "a",
@@ -3461,7 +3454,7 @@
         },
         {
             "iconID": 20062,
-            "type": "purcone",
+            "type": "puricone",
             "name": "黑帮的老大",
             "head": "ei",
             "tail": "a",
@@ -3477,7 +3470,7 @@
         },
         {
             "iconID": 20063,
-            "type": "purcone",
+            "type": "puricone",
             "name": "阴暗",
             "head": "in",
             "tail": "an",
@@ -3485,7 +3478,7 @@
         },
         {
             "iconID": 20063,
-            "type": "purcone",
+            "type": "puricone",
             "name": "圣特蕾莎女子学院的危险分子",
             "head": "eng",
             "tail": "i",
@@ -3501,7 +3494,7 @@
         },
         {
             "iconID": 20064,
-            "type": "purcone",
+            "type": "puricone",
             "name": "咧切噜切啵哔",
             "head": "ie",
             "tail": "i",
@@ -3509,7 +3502,7 @@
         },
         {
             "iconID": 20064,
-            "type": "purcone",
+            "type": "puricone",
             "name": "圣特蕾莎女子学院的危险分子",
             "head": "eng",
             "tail": "i",
@@ -3525,7 +3518,7 @@
         },
         {
             "iconID": 20065,
-            "type": "purcone",
+            "type": "puricone",
             "name": "家里蹲",
             "head": "a",
             "tail": "un",
@@ -3533,7 +3526,7 @@
         },
         {
             "iconID": 20065,
-            "type": "purcone",
+            "type": "puricone",
             "name": "圣特蕾莎女子学院的危险分子",
             "head": "eng",
             "tail": "i",
