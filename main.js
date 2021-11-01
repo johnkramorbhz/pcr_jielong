@@ -255,7 +255,6 @@
 		 }
 		 data.nextUnClick = tailToCount[data.tail];
      });
-	 console.log(tailToCount);
  }
 
  function sortDataArray(dataArray) {
@@ -397,8 +396,10 @@
              eachHandle(config);
          });
 
-         htmlArray.push(`<div class="hr">不通向目标</div>`);
-         configData.normal && configData.normal.forEach(config => {
+		 if (configData.normal && configData.normal.length > 0) {
+			 htmlArray.push(`<div class="hr">不通向目标</div>`);
+		 }
+		 configData.normal && configData.normal.forEach(config => {
              htmlArray.push(buildShowDiv(config));
              eachHandle(config);
          });
