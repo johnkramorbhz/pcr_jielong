@@ -1141,9 +1141,9 @@
         {
             "iconID": 10034,
             "type": "great",
-            "name": "甲殼類",
-            "head": "ia",
-            "tail": "ei",
+            "name": "甲壳纲",
+            "head": "a",
+            "tail": "ang",
             "desc": "有著堅硬外骨骼的節肢動物。蝦、蟹，還有水蚤都算在內。"
         },
         {
@@ -1541,7 +1541,7 @@
         {
             "iconID": 10046,
             "type": "purcone",
-            "name": "羈絆點數",
+            "name": "礼物",
             "head": "i",
             "tail": "u",
             "desc": "羈絆的深遠不只是共同渡過的時間。卡路里也是羈絆的證明……"
@@ -1733,9 +1733,9 @@
         {
             "iconID": 10052,
             "type": "great",
-            "name": "大富翁",
-            "head": "a",
-            "tail": "ong",
+            "name": "桌游", 
+			"head": "uo",
+			"tail": "ou",
             "desc": "使用骰子的桌遊。"
         },
         {
@@ -2053,7 +2053,7 @@
         {
             "iconID": 10062,
             "type": "great",
-            "name": "防具",
+            "name": "防御",
             "head": "ang",
             "tail": "ü",
             "desc": "保護身體的裝備。"
@@ -2413,9 +2413,9 @@
         {
             "iconID": 10073,
             "type": "great",
-            "name": "滷汁",
+            "name": "厨具",
             "head": "u",
-            "tail": "zh",
+            "tail": "ü",
             "desc": "為了讓食物入味所用的液體。"
         },
         {
@@ -2525,9 +2525,9 @@
         {
             "iconID": 10076,
             "type": "great",
-            "name": "肌肉",
+            "name": "肌肉锻炼",
             "head": "i",
-            "tail": "ou",
+            "tail": "ian",
             "desc": "肌肉！"
         },
         {
@@ -2645,8 +2645,8 @@
         {
             "iconID": 20004,
             "type": "normal",
-            "name": "禊",
-            "head": "i",
+            "name": "未奏希",
+            "head": "ei",
             "tail": "i",
             "desc": "【小小甜心】中的惡作劇負責人。在３人之中也是氣氛營造者。"
         },
